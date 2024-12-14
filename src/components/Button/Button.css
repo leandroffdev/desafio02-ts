@@ -1,0 +1,14 @@
+button {
+    border: none;
+    border-radius: 8px;
+    background-color: teal;
+    color: white;
+    font-weight: 700;
+    padding: 12px;
+    &:hover {
+        opacity: 0.8;
+        cursor: pointer;
+        transition: .3s;
+        scale: 1.01;
+    }
+}

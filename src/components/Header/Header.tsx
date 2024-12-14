@@ -1,9 +1,11 @@
-import './Header.css'
+import './Header.css';
 
-export const Header  = () => {
+export const Header = () => {
   return(
-    <div className='header'>
-      Dio Bank
-    </div>
+    <>
+    <header className="header">
+      <h1>Dio Bank</h1>
+    </header>
+    </>
   )
 }

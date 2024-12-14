@@ -1,0 +1,33 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+    box-sizing: border-box;
+    min-width: 300px;
+    margin: 0 auto;
+}
+form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+}
+form h1 {
+    margin: 0 auto;
+    align-items: center;
+    color: teal;
+}
+form label {
+    color: teal;
+}
+form input {
+    border: none;
+    border-radius: 8px;
+    box-shadow: inset .1px .1px 4px grey;
+    padding: 12px;
+    outline-color: transparent;
+    &:focus {
+        outline-color: teal;
+    }
+}
